@@ -1,0 +1,39 @@
+
+@media (max-width: 991px) {
+    .film .film-block{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .collections .block{
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+
+@media (max-width: 580px) {
+    header .menu nav{
+        flex-direction: column;
+        padding-top: 15px;
+    }
+    
+    header .menu nav ul a{
+        padding: 14px 11px;
+    }
+    
+    header .poster{
+        padding: 10px 0px;
+    }
+    
+    header .poster i{
+        font-size: 24px;
+    }
+    
+    
+}
+
+@media (max-width: 500px) {
+    .film .film-block{
+        grid-template-columns: 1fr;
+    }
+}
